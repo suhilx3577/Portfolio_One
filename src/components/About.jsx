@@ -9,9 +9,9 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>ABOUT</p>
             </div>
 
-            <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit laboriosam voluptates deserunt sapiente eveniet commodi facere ex, iure sunt dolorum consequuntur fugiat officiis neque tempora blanditiis eos aspernatur. Modi dolorem veniam porro corrupti corporis velit ea exercitationem sed consequuntur fugiat. Illo error perferendis quas a praesentium nemo impedit odio.</p>
+            <p className=' mt-4px text-lg md:text-xl md:mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit laboriosam voluptates deserunt sapiente eveniet commodi facere ex, iure sunt dolorum consequuntur fugiat officiis neque tempora blanditiis eos aspernatur. Modi dolorem veniam porro corrupti corporis velit ea exercitationem sed consequuntur fugiat. Illo error perferendis quas a praesentium nemo impedit odio.</p>
             <br/>
-            <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit laboriosam voluptates deserunt sapiente eveniet commodi facere ex, iure sunt dolorum consequuntur fugiat officiis neque tempora blanditiis eos aspernatur. Modi dolorem veniam porro corrupti corporis velit ea exercitationem sed consequuntur fugiat. Illo error perferendis quas a praesentium nemo impedit odio.</p>
+            <p className='text-lg md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit laboriosam voluptates deserunt sapiente eveniet commodi facere ex, iure sunt dolorum consequuntur fugiat officiis neque tempora blanditiis eos aspernatur. Modi dolorem veniam porro corrupti corporis velit ea exercitationem sed consequuntur fugiat. Illo error perferendis quas a praesentium nemo impedit odio.</p>
         </div>
     </div>
   )
