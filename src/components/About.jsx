@@ -9,9 +9,13 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>ABOUT</p>
             </div>
 
-            <p className=' mt-4px text-lg md:text-xl md:mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit laboriosam voluptates deserunt sapiente eveniet commodi facere ex, iure sunt dolorum consequuntur fugiat officiis neque tempora blanditiis eos aspernatur. Modi dolorem veniam porro corrupti corporis velit ea exercitationem sed consequuntur fugiat. Illo error perferendis quas a praesentium nemo impedit odio.</p>
+            <p className=' mt-4px text-lg md:text-xl md:mt-20'>
+              I am a results-oriented React.js developer with a deep passion for building exceptional web applications. With a strong foundation in front-end development and a keen eye for design, I strive to create seamless user experiences that leave a lasting impression. My journey as a developer began with a fascination for crafting elegant code and a commitment to continuous learning. This drive has led me to stay up-to-date with the latest industry trends and leverage cutting-edge technologies to deliver innovative solutions.
+              </p>
             <br/>
-            <p className='text-lg md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit laboriosam voluptates deserunt sapiente eveniet commodi facere ex, iure sunt dolorum consequuntur fugiat officiis neque tempora blanditiis eos aspernatur. Modi dolorem veniam porro corrupti corporis velit ea exercitationem sed consequuntur fugiat. Illo error perferendis quas a praesentium nemo impedit odio.</p>
+            <p className='text-lg md:text-xl'>
+              I thrive in collaborative environments where I can contribute my skills and expertise to a team working towards a shared vision. I am skilled in leveraging the power of React.js to develop scalable and maintainable codebases, ensuring high performance and code reusability. From crafting pixel-perfect UIs to implementing complex functionality, I am dedicated to delivering clean, efficient, and user-centric applications. I am passionate about staying at the forefront of web development, constantly exploring new tools and techniques to enhance my craft and deliver the best possible results for every project.
+              </p>
         </div>
     </div>
   )

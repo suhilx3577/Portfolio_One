@@ -13,7 +13,7 @@ const Home = () => {
                     I'm a React JS Developer 
                 </h2>
                 <p className=' text-gray-500 mx-9 py-4 max-w-lg'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis animi neque nisi quod nihil unde, alias sint ad doloribus. Quas impedit nisi natus, voluptatum voluptatem in quaerat repellendus asperiores beatae.
+                Driven React.js developer dedicated to crafting seamless web applications that captivate users through intuitive interfaces. With a passion for problem-solving and attention to detail, I bring ideas to life by blending cutting-edge technologies with elegant code.
                 </p>
                 <div>
                 <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>

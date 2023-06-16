@@ -1,10 +1,11 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import dbms1 from '../assets/portfolio/dbms1.jpg'
+import ImageGallery from '../assets/portfolio/ImageGallery.jpg'
+import Movizz from '../assets/portfolio/Movizz.jpg'
+import ParallaxEffect from '../assets/portfolio/ParallaxEffect.jpg'
+import ShareIt from '../assets/portfolio/ShareIt.jpg'
+
 // import usestate from '../assets/portfolio/usestate.jpg'
 
 
@@ -13,28 +14,35 @@ const Portfolio = () => {
 
     const portfolios = [
         {
-            id: 1,
-            src: arrayDestruct
-        },
-        {
             id: 2,
-            src: installNode
+            src: dbms1,
+            demolink: 'https://www.youtube.com/watch?v=zGtpQlZYgIA',
+            gitLink: 'https://github.com/suhilx3577/banking-tsf'
+
         },
         {
             id: 3,
-            src: navbar
+            src: ImageGallery,
+            demolink: 'https://image-gallery-suhil.netlify.app/',
+            gitLink: 'https://github.com/suhilx3577/MernLearning/tree/master/CSS/unwrapClass'
         },
         {
             id: 4,
-            src: reactSmooth
+            src: Movizz,
+            demolink: 'https://suhil-moviz.netlify.app/',
+            gitLink: 'https://github.com/suhilx3577/Moviezz'
         },
         {
             id: 5,
-            src: reactParallax
+            src: ParallaxEffect,
+            demolink: 'https://suhil-parallax.netlify.app/',
+            gitLink: 'https://github.com/suhilx3577/MernLearning/tree/master/CSS/Lec-3/Parallax'
         },
         {
             id: 6,
-            src: reactWeather
+            src: ShareIt,
+            demolink: 'https://share-it-suhil.netlify.app/',
+            gitLink: 'https://github.com/suhilx3577/Share-It-App'
         },
 
     ]
@@ -52,15 +60,20 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
 
-                        portfolios.map(({ id, src }) => (
+                        portfolios.map(({ id, src ,demolink , gitLink}) => (
 
                             <div key={id}  className='shadow-md shadow-gray-800 rounded-lg '>
                                 <img src={src}
                                     alt=""
-                                    className='rounded-md hover:scale-105 duration-300' />
+                                    className='rounded-md hover:scale-105 duration-300 h-44'/>
                                 <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-3 hover:scale-110 duration-300'>Demo</button>
-                                    <button className='w-1/2 px-6 py-3 hover:scale-110 duration-300'>Code</button>
+                                    <button  className='w-1/2 px-6 py-3 hover:scale-110 duration-300'>
+                                        <a href={demolink} target='_blank'>Demo</a>
+                                    </button>
+                                    <button className='w-1/2 px-6 py-3 hover:scale-110 duration-300'>
+                                    <a href={gitLink} target='_blank'>Code</a>
+                                        
+                                    </button>
                                 </div>
                             </div>
 
